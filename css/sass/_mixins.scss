@@ -1,0 +1,24 @@
+
+// $imgPath:"../../img";
+$imgPath:"../../assets/images";
+$fontPath:"../../assets/fonts";
+
+
+$fontBase:"Helvetica Neue",\5FAE\8F6F\96C5\9ED1,Tohoma;
+$fontOSX:'Hiragino Sans GB','Microsoft YaHei',微软雅黑,STHeiti,'WenQuanYi Micro Hei',Helvetica,Arial,sans-serif;
+$fontIOS:"HelveticaNeue-UltraLight","Helvetica Neue UltraLight";
+
+$googleFontExo:"Exo";
+
+
+@mixin word-wrap {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+@mixin word-wrap-multi{
+white-space: normal;
+overflow: hidden;
+text-overflow: ellipsis;
+}
